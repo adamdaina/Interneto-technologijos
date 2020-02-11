@@ -1,0 +1,102 @@
+h1 
+{
+	font-size: 70px;
+	line-height: 90px;
+}
+
+p 
+{
+	font-size: 17px;	
+	font-weight: lighter;
+}
+
+div.style
+{
+	position: relative;
+	top: 50px;
+	left: 85px;
+	font-family: tahoma;
+	color: white;
+}
+
+ul
+{
+	list-style-type: none;
+	margin 0;
+	padding 0;
+}
+
+li
+{
+	display: inline;
+}
+
+a.menu
+{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: tahoma;
+	padding: 30px;
+	font-size: 13px;
+	position: relative;
+	left: 16px;
+	cursor: pointer;
+}
+
+a.far
+{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: tahoma;
+	padding: 24px;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	left: 300px;
+	cursor: pointer;
+}
+
+.button
+{
+	background: #F5FFFA;
+	color: #00008B;
+	text-transform: uppercase;
+	font-family: tahoma;
+	padding: 10px 24px;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	left: 300px;
+	margin: 10px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.button:hover
+{
+	color: #add8e6;
+}
+
+.button2
+{
+	background: #dc143c;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: tahoma;
+	padding: 17px 17px;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	left: 40px;
+	bottom: -95px;
+	margin: 10px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.button2:hover
+{
+	color: #ff6347;
+}
