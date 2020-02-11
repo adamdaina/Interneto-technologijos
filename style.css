@@ -29,6 +29,7 @@ ul
 li
 {
 	display: inline;
+	margin-right: 50px;
 }
 
 a.menu
@@ -37,11 +38,25 @@ a.menu
 	color: white;
 	text-transform: uppercase;
 	font-family: tahoma;
-	padding: 30px;
+	padding: 0px;
 	font-size: 13px;
 	position: relative;
 	left: 16px;
 	cursor: pointer;
+}
+
+a.home
+{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: tahoma;
+	padding: 0px;
+	font-size: 13px;
+	position: relative;
+	left: 16px;
+	cursor: pointer;
+	border-bottom: 3px solid white;
 }
 
 a.far
@@ -50,12 +65,19 @@ a.far
 	color: white;
 	text-transform: uppercase;
 	font-family: tahoma;
-	padding: 24px;
+	padding: 10px 24px;
 	font-size: 13px;
 	font-weight: bold;
 	position: relative;
 	left: 300px;
 	cursor: pointer;
+	transition: 0.6s;
+	border-radius: 6px;
+}
+
+a.far:hover
+{
+	background: #add8e6;
 }
 
 .button
@@ -68,10 +90,11 @@ a.far
 	font-size: 13px;
 	font-weight: bold;
 	position: relative;
-	left: 300px;
+	left: 250px;
 	margin: 10px;
 	cursor: pointer;
-	transition: 0.8s;
+	transition: 0.6s;
+	border-radius: 6px;
 }
 
 .button:hover
@@ -89,14 +112,40 @@ a.far
 	font-size: 13px;
 	font-weight: bold;
 	position: relative;
-	left: 40px;
+	left: 35px;
 	bottom: -95px;
 	margin: 10px;
 	cursor: pointer;
-	transition: 0.8s;
+	transition: 0.6s;
+	border-radius: 6px;
 }
 
 .button2:hover
 {
 	color: #ff6347;
+}
+
+.dot, .dotf
+{
+	  height: 13px;
+	  width: 13px;
+	  background-color: #4677ff;
+	  border-radius: 50%;
+	  display: inline-block;
+	  margin-right: 25px;
+	  position: relative;
+	  left: 85px;
+	  bottom: -155px;
+}
+
+.dotf
+{
+  border: 5px solid;
+  border-color: #ffb600;
+  background-color: #0043ff;
+}
+
+.dot
+{
+	margin-bottom: 5px;
 }
