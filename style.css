@@ -4,23 +4,11 @@ body{
 
 
 	font: normal 16px tahoma, tahoma, sans-serif;
-	margin:0;
-	padding-top:25px;
-	padding-left:250px; 
-	padding-right:250px;
+
 }
 
-.current{
-	border-bottom: 4px solid currentcolor;
-}
 
-.hover:hover{
-	background-color: rgb(225,89,105);
-}
 
-.meniu{
-	padding:5px;
-}
 
 footer{
 	display:block;
@@ -46,26 +34,17 @@ footer{
 	margin-top: 5px;
 }
 
-a{
-	display:inline-block;
-	color:white;
-	font-weight: normal;
-	text-decoration: none;
-	margin-left: 50px;
-}
 
 .button{
-	float: right;
 	background-color: transparent;
+	font-weight: bold;
 	border:none;
 	padding:17px 40px;
-	margin-left:50px;
 	display:inline-block;
 	font-size:16px;
 	border-radius: 6px;
 }
-.button_white{
-	float:right;
+.white{
 	background-color: white;
 	color:rgb(25, 60, 202);
 	font-weight: bold;
@@ -84,7 +63,6 @@ a{
 	font-size: 40px;
 	width:730px;
 }
-p{margin:0;}
 
 .smaller-text{
 	margin-top: none;

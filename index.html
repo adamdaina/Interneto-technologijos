@@ -2,23 +2,40 @@
 <html>
 <head>
 	<title>Vizzy</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X_UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width = device width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 
 </head>
-<body>
-
+<body> 
+	<div class="container">
 		<header>
-			<nav>
-				<img src="VIZZY_logo.png">
-						<a href="#" class="current meniu">HOME</a>
-						<a href="#" class="meniu">PRODUCTS</a>
-						<a href="#" class="meniu">TEMPLATES</a>
-						<a href="#" class="meniu">PRICING</a>
-				<a class="button_white hover" href="#">SIGN UP</a>
-				<a class="button hover" href="#">SIGN IN</a>
+			<nav class="navbar navbar-expand-md navbar-dark">
+			<a class="navbar-brand"><img src="VIZZY_logo1.png"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapse_target">
+				
+
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">TEMPLATES</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">PRICING</a></li>
+				</ul>
+				<ul class="navbar-nav form-inline mr-1">
+					<li class="nav-item"><a class="button hover" href="#">SIGN IN</a></li>
+					<li class="nav-item"><a class="button white hover" href="#">SIGN UP</a></li>
+					
+				</ul>
+			</div>
 			</nav>
 		</header>
-
+		
 		<div class="text">	
 			<h1>Create Stunning Visual Media</h1>
 		</div>
@@ -36,5 +53,13 @@
 			<p class="bubbles"></p>
 		</footer>
 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
