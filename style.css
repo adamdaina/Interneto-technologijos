@@ -82,6 +82,15 @@ li{
 
 footer{
 	display:block;
+	background-color: #4169E1;
+	color: white;
+	padding: 40px 0;
+	
+}
+
+footer a{
+    color: white;
+	
 }
 
 .hover:hover{
