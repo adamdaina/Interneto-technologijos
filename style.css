@@ -60,6 +60,7 @@
   opacity: 1;
 }
 
+/*992*/
 
 /*BREAKBREAKBREAKBREAKBERAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAK */
 
@@ -85,10 +86,15 @@ li{
 }
 
 footer{
+
 	display:block;
 	background-color: #4169E1;
 	color: white;
-	
+
+}
+
+.gap{
+	margin-bottom:150px !important;
 }
 
 footer a{
@@ -132,13 +138,11 @@ nav{
 	background-color: transparent;
 	font-weight: bold;
 	border:none;
-	padding:17px 40px;
-	display:inline-block;
 	font-size:16px;
 	border-radius: 6px;
 	text-decoration: none !important;
-		outline:none !important;
-		color:white;
+	outline:none !important;
+	color:white;
 
 }
 .white{
@@ -147,7 +151,6 @@ nav{
 	font-weight: bold;
 	border:none;
 	padding:17px 40px;
-	margin:0px;
 	display:inline-block;
 	font-size:16px;
 	border-radius: 6px;
@@ -161,6 +164,7 @@ nav{
 	.smaller-text{
 		width:50%;
 	}
+
 }
 
 .smaller-text{
