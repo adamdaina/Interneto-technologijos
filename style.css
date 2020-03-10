@@ -156,6 +156,7 @@ form{
 	text-decoration: none !important;
 	outline:none !important;
 	color:white;
+    padding: 5px 10px;
 
 }
 .white{
@@ -163,7 +164,7 @@ form{
 	color:rgb(25, 60, 202);
 	font-weight: bold;
 	border:none;
-	padding:17px 40px;
+	
 	display:inline-block;
 	font-size:16px;
 	border-radius: 6px;
