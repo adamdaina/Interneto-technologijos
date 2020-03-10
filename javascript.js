@@ -25,7 +25,3 @@ function closeFormIN() {
 function closeFormUP() {
   document.getElementById("Sign Up").style.display = "none";
 }
-
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-}
