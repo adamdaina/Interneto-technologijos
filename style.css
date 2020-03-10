@@ -110,6 +110,19 @@ nav{
 	margin-bottom:140px;
 }
 
+form{
+    margin-bottom: 30px
+}
+
+.form-group{
+    margin-top: 10px
+}
+
+.list-group{
+    margin-bottom: 30px
+}
+
+
 .bubbles:hover{
 	float:left;
 	background-color: rgb(0, 119, 255); 
