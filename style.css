@@ -64,6 +64,29 @@
 
 /*BREAKBREAKBREAKBREAKBERAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAKBREAK */
 
+.calc{
+	padding:0;
+	margin:0;
+	width:75px;
+	height:75px;
+	border:0;
+	background-color: lightgreen;
+	cursor:pointer;
+}
+.textview{
+	width:306px;
+	height:50px;
+	margin:0;
+	padding:0;
+	margin-left: 1px;
+	border:0;
+	font-size:30px;
+}
+
+.calc1{
+	width:152px;
+}
+
 body{
 	background-image: url("./img/img1.png");
 	background-size: cover;

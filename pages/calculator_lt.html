@@ -20,15 +20,12 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="collapse_target">
-				
-
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item"><a class="nav-link hover" href="products_lt.html">PRODUKTAI</a></li>
 					<li class="nav-item"><a class="nav-link	hover" href="templates_lt.html">ŠABLONAI</a></li>
 					<li class="nav-item"><a class="nav-link	hover" href="pricing_lt.html">KAINOS</a></li>
-					<li class="nav-item"><a class="nav-link  hover" href="calculator_lt.html">SKAICIUOTUVAS</a></li>
+					<li class="nav-item"><a class="nav-link	hover" href="calculator_lt.html">SKAICIUOTUVAS</a></li>
           <li class="nav-item"><a class="nav-link hover" href="Gallery_lt.html">GALERIJA</a></li>
-				</ul>
 				</ul>
 				<ul class="navbar-nav form-inline mr-1">
 					<li class="nav-item"><a class="button" href="#">PRISIJUNGTI</a></li>
@@ -42,49 +39,74 @@
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="products.html">English</a>
-    <a class="dropdown-item" href="products_lt.html">Lietuvių</a>
+    <a class="dropdown-item" href="calculator.html">English</a>
+    <a class="dropdown-item" href="calculator_lt.html">Lietuvių</a>
   </div>
 </div>
-                
 			</div>
 			</nav>
 		</header>
 		
 			<div class="lead text-justify text-light ">	
-				<h1>Produktai</h1>
+				<h1>Apie mus</h1>
 			</div>
-		<div class="lead text-justify text-light smaller-text">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac maximus sem. Donec placerat et nisl at viverra. Sed nulla est, tempus id dictum quis, gravida ac dolor. Curabitur at erat a purus commodo placerat. In dignissim facilisis luctus. Sed at odio purus. Maecenas sit amet imperdiet metus. Sed lacus ipsum, vulputate vitae nulla nec, ultrices pharetra nunc. Integer facilisis dui id magna interdum sodales. Nulla quis est vel urna aliquam consectetur. Quisque viverra metus sit amet erat volutpat, a faucibus augue bibendum. Cras varius est mi, at facilisis metus maximus quis. Pellentesque justo justo, tristique pretium egestas nec, cursus sit amet diam. Cras finibus felis ac lectus accumsan, vitae semper augue gravida. Donec pretium vitae est eget dapibus.</p>
-		</div>
+		  <script>
+    function insert(num){
+  document.form.textview.value+=num;
+}
+  function equal(){
+    var temp = document.form.textview.value;
+    if(temp){
+      document.form.textview.value = eval(temp);
+    }
+  }
+
+  function back(){
+    var temp = document.form.textview.value;
+    document.form.textview.value = temp.substring(0,temp.length-1);
+  }
+
+  function delet(){
+    document.form.textview.value='';
+  }
+</script>
+
+    <form name="form">
+        <input class="textview" name="textview" disabled="true">
+    </form>
+    <table>
+        <tr>
+          <td colspan="2"><input class="calc calc1" type="button" value="Del" onclick="back()"></td>
+          <td colspan="2"><input class="calc calc1" type="button" value="C" onclick="delet()"></td>
+        </tr>
+        <tr>
+          <td><input class="calc" type="button" value="7" onclick="insert(7)"></td>
+          <td><input class="calc" type="button" value="8" onclick="insert(8)"></td>
+          <td><input class="calc" type="button" value="9" onclick="insert(9)"></td>
+          <td><input class="calc" type="button" value="*" onclick="insert('*')"></td>
+        </tr>
+        <tr>
+          <td><input class="calc" type="button" value="4" onclick="insert(4)"></td>
+          <td><input class="calc" type="button" value="5" onclick="insert(5)"></td>
+          <td><input class="calc" type="button" value="6" onclick="insert(6)"></td>
+          <td><input class="calc" type="button" value="-" onclick="insert('-')"></td>
+        </tr>
+        <tr>
+          <td><input class="calc" type="button" value="1" onclick="insert(1)"></td>
+          <td><input class="calc" type="button" value="2" onclick="insert(2)"></td>
+          <td><input class="calc" type="button" value="3" onclick="insert(3)"></td>
+          <td><input class="calc" type="button" value="+" onclick="insert('+')"></td>
+        </tr>
+        <tr>
+          
+          <td><input class="calc" type="button" value="0" onclick="insert(0)"></td>
+          <td><input class="calc" type="button" value="." onclick="insert('.')"></td>
+          <td><input class="calc" type="button" value="=" onclick="equal()"></td>
+          <td><input class="calc" type="button" value="/" onclick="insert('/')"></td>
+        </tr>
+    </table>
 		
-		<form>
-  <div class="form-group">
-    <label class="text-light" for="exampleInputEmail1">El. paštas</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
-  </div>
-  <div class="form-group">
-    <label class="text-light" for="exampleInputPassword1">Slaptažodis</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-  </div>
-  
-  <textarea class="form-control" rows="3"></textarea>
-  
-  <div class="form-group">
-    <label class="text-light" for="exampleInputFile">Įkelti failą</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block text-light">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label class="text-light">
-      <input type="checkbox"> Pažymėti mane
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Priduoti</button>
-</form>
-
-
-	</div>	
+</div>
 		<!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
 
@@ -145,6 +167,7 @@
 </div>
 
 </footer>
+<!-- Footer -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

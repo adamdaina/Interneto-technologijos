@@ -25,3 +25,5 @@ function closeFormIN() {
 function closeFormUP() {
   document.getElementById("Sign Up").style.display = "none";
 }
+
+
